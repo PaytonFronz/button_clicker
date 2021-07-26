@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- top of webpage -->
+    <div id="navbar">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" placeholder="Search..">
+        <button onclick="logOut(this)" class="login">Login</button>
+    </div>
+    <div class="flexbox">
+        <!-- left side of webpage -->
+        <div id="main">
+            <div id="ninja1">
+                <div class="contentofbox1">
+                    <div class="ninja1_L">
+                        <h2>Ninja</h2>
+                        <h3><em>noun</em></h3>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="alert('Ninja Was Liked!')" class="likes1">13 likes</button>
+                    </div>
+                    <div class="ninja1_R">
+                        <p class="def">A Practioner skilled in the <a
+                                href="https://en.wikipedia.org/wiki/Japan">Japanese</a>
+                            art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">Ninjitsu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div id="ninja2">
+                <div class="contentofbox2">
+                    <div class="ninja2_L">
+                        <h2>Ninja</h2>
+                        <h3><em>noun</em></h3>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="alert('Ninja Was Liked!')" class="likes2">37 likes</button>
+                    </div>
+                    <div class="ninja2_R">
+                        <p class="def">A <a href="https://www.merriam-webster.com/dictionary/programmer">Programmer</a>
+                            who
+                            breaks down
+                            problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right side of page -->
+        <aside>
+            <div id="DefBox">
+                <h2>Dojonary is defined by <strong>YOU</strong></h2>
+                <button onclick="hide(this)" class="addDefBtn">Add Definition</button>
+            </div>
+        </aside>
+        <!-- end of right side -->
+    </div>
+</body>
+
+</html>
